@@ -1,18 +1,19 @@
 
-public class Department extends Composite{
+public class Department extends Composite
+{
 
-	public void prntCmp()
-	{
-		System.out.println("Department name: " + this.name);
-		for(Component c: components)
-		{
-			c.prntCmp();
-		}
-	}
+    public void prntCmp()
+    {
+        System.out.println("Department name: " + this.name);
+        for (Component c : components)
+        {
+            c.prntCmp();
+        }
+    }
 
-	public Department(String name)
-	{
-		this.name=name;
-	}
-	
+    public Department(String name)
+    {
+        this.name = name;
+    }
+
 }
